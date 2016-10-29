@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: 医时 Ethicall
+subtitle: Ethicall 布洛克
+description: Ethicall 上海医时科技
+author: Ethicall
+language: zh-Hans
 timezone:
+avatar: /images/profile.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,9 +64,19 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+
+Plugin:
+  - hexo-generator-author
+
+admin:
+  username: Ethicall
+  password_hash: $2a$08$U5TEwzuxy1uD4Lh2GgioKuxuHRhbBb6oeM9Qaqfk5drQ5SorjQpCW
+  secret: Ethicall2016
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/HSUCHING/Ethicall.github.io.git
+  branch: master
