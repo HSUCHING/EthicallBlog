@@ -82,5 +82,5 @@ admin:
 #  branch: master
 deploy:
   type: git
-  repository: https://github.com/Ethicall/ethicall.github.io.git
+  repository: https://ethicall.github.com/Ethicall/ethicall.github.io.git
   branch: master
