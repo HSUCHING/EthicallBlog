@@ -76,7 +76,11 @@ admin:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repository: https://github.com/HSUCHING/hsuching.github.io.git
+#  branch: master
 deploy:
   type: git
-  repository: https://github.com/HSUCHING/Ethicall.github.io.git
+  repository: git@ethicall.github.com:Ethicall/ethicall.github.io.git
   branch: master
